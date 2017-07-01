@@ -1,8 +1,11 @@
 img{
     max-width: 100%;
-    height: 250px;
+    height: 200px;
+    min-width: 100px;
 }
 .ranking-container{
     display: flex;
-    flex-direction: column-reverse;
+
+    flex-flow: row wrap;
+
 }
