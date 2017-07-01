@@ -5,7 +5,38 @@ img{
 }
 .ranking-container{
     display: flex;
-
     flex-flow: row wrap;
+}
 
+.futbolista-item{
+    display: flex;
+    flex-direction: column;
+}
+.futbolista-item > img {
+    order: -1;
+}
+
+.uno{
+    order:2;
+    background-color: #FFD700;
+    flex:3;
+}
+.dos{
+    order:1;
+    background-color: #C0C0C0;
+    flex:2;
+
+}
+.tres{
+    order:3;
+    background-color: #CD7F32;
+    flex:1;
+}
+
+.title-ranking{
+    height: 300px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
